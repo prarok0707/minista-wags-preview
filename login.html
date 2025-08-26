@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <meta property="description" content="description">
+    <link rel="icon" href="assets/images/favicon.svg">
+    <script src="/assets/main.js" type="module"></script>
+    <link rel="stylesheet" href="/assets/bundle.css">
+  </head>
+  <body>
+    <main class="home">
+      <div class="home__wrapper">
+        <h1 class="home__preview-title">Effortlessly manage your team with AI</h1>
+        <picture class="home__image">
+          <source srcset="assets/images/home/img_01.webp" type="image/webp">
+          <img src="assets/images/home/img_01.png" alt="image">
+        </picture>
+        <div class="home__body">
+          <a class="home__logo" href="#">
+            <img src="assets/images/home/logo_01.svg" alt="logo">
+          </a>
+          <div class="home__center">
+            <div class="home__title title">
+              <h1>Welcome back</h1><span>Enter your login and password to access your account</span>
+            </div>
+            <form class="home__form">
+              <div class="home__form-inputs">
+                <div class="input" data-input="true" data-input-default="true"><span class="input__label">Login</span>
+                  <label class="input__wrapper">
+                    <div class="input__group">
+                      <input class="input__target" type="text" data-input-target="true" placeholder="Enter your login">
+                    </div>
+                    <button class="input__reset" type="button" data-input-reset="true">
+                      <svg class="input__icon">
+                        <use href="/assets/images/icons.svg#cross"></use>
+                      </svg>
+                    </button>
+                  </label>
+                </div>
+                <div class="input" data-input="true" data-input-default="true"><span class="input__label">Password</span>
+                  <label class="input__wrapper">
+                    <div class="input__group">
+                      <input class="input__target" type="password" data-input-target="true" placeholder="Enter your password">
+                    </div>
+                    <button class="input__reset" type="button" data-input-reset="true">
+                      <svg class="input__icon">
+                        <use href="/assets/images/icons.svg#cross"></use>
+                      </svg>
+                    </button>
+                  </label>
+                </div>
+              </div>
+              <button class="button" type="submit">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
